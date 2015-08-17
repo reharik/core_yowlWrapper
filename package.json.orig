@@ -1,0 +1,30 @@
+{
+  "name": "yowlwrapper",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "license": "MIT",
+  "node": ">=0.12.0",
+  "dependencies": {
+<<<<<<< HEAD
+    "moment": "^2.10.6",
+    "joi": "^6.0.8",
+    "lodash": "^3.6.0",
+    "winston": "^1.0.0",
+    "winston-logstash": "^0.1.11",
+    "winston-sqs-logstash": "^1.0.2"
+=======
+    "moment": "^2.10.6"
+>>>>>>> 47df636226aa5ffa008ffed0e330d37a488bdcde
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reharik/core_yowlWrapper.git"
+  },
+  "author": "Raif Harik",
+  "bugs": {
+    "url": "https://github.com/reharik/core_yowlWrapper/issues"
+  },
+  "homepage": "https://github.com/reharik/core_yowlWrapper#readme",
+  "description": ""
+}
