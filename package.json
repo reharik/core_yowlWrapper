@@ -15,12 +15,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reharik/core_yowlWrapper.git"
+    "url": "git+https://github.com/reharik/yowlwrapper.git"
   },
   "author": "Raif Harik",
   "bugs": {
-    "url": "https://github.com/reharik/core_yowlWrapper/issues"
+    "url": "https://github.com/reharik/yowlwrapper/issues"
   },
-  "homepage": "https://github.com/reharik/core_yowlWrapper#readme",
+  "homepage": "https://github.com/reharik/yowlwrapper#readme",
   "description": ""
 }
