@@ -9,8 +9,7 @@
     "joi": "^6.0.8",
     "lodash": "^3.6.0",
     "winston": "^1.0.0",
-    "winston-logstash": "^0.1.11",
-    "winston-sqs-logstash": "^1.0.2"
+    "winston-logstash": "^0.1.11"
   },
   "devDependencies": {},
   "repository": {
