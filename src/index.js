@@ -2,7 +2,7 @@
  * Created by parallels on 8/4/15.
  */
 
-var yowl = require('yowl');
+var yowl = require('./yowl');
 var moment = require('moment');
 
 module.exports = function(options) {

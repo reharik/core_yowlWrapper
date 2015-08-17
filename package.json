@@ -6,7 +6,11 @@
   "node": ">=0.12.0",
   "dependencies": {
     "moment": "^2.10.6",
-    "yowl": "^1.0.31"
+    "joi": "^6.0.8",
+    "lodash": "^3.6.0",
+    "winston": "^1.0.0",
+    "winston-logstash": "^0.1.11",
+    "winston-sqs-logstash": "^1.0.2"
   },
   "devDependencies": {},
   "repository": {
