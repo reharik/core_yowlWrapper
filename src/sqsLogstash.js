@@ -2,7 +2,7 @@ var AWS = require("aws-sdk"),
     Winston = require("winston"),
     Joi = require("joi"),
     Util = require("util"),
-    Enum = require("./modules/sqaEnum.js"),
+    Enum = require("./modules/sqsEnum.js"),
     _ = require("lodash");
 
 var SqsLogstash = Winston.transports.SqsLogstash = module.exports = function(options){
