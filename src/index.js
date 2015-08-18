@@ -18,7 +18,7 @@ module.exports = function(_options) {
         colorize: true,
         formatter: options.formatter
         || function (x) {
-            return '[' + x.meta.level + '] module: '+options.module+' msg: ' + x.meta.message + ' | ' + moment().format('h:mm:ss a');
+            return '[' + x.meta.level + '] module: '+options.moduleName+' msg: ' + x.meta.message + ' | ' + moment().format('h:mm:ss a');
         }
     }).info("added Console Sink")
         .addDailyRotateFileSink({
