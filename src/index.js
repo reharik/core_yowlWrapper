@@ -2,18 +2,19 @@
  * Created by parallels on 8/4/15.
  */
 
-var yowl = require('./yowl');
+var _yowl = require('./yowl');
 var moment = require('moment');
 
-module.exports = function(options) {
-    var yowl = new yowl({
+module.exports = function(_options) {
+    var options = _options || {};
+    var yowl = new _yowl({
         system: {
             applicationName: options.applicationName || 'root',
             environment: options.env || 'dev'
         }
     });
     yowl.addConsoleSink({
-        level: options.consoleSink.level || options.level || 'silly',
+        level: options.consoleSink && options.consoleSink.level || options.level || 'silly',
         colorize: true,
         formatter: options.formatter
         || function (x) {
@@ -21,7 +22,7 @@ module.exports = function(options) {
         }
     }).info("added Console Sink")
         .addDailyRotateFileSink({
-            level: options.fileSink.level || options.level || 'info',
+            level: options.fileSink && options.fileSink.level || options.level || 'info',
             filename: "/" + options.applicationName + ".log"
         })
         .info("added Daily RotateFile Sink");
