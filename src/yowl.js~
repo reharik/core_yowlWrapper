@@ -6,7 +6,7 @@ var Winston = require("winston"),
     Enum = require("./modules/enum.js"),
     TestLogger = require("./modules/testLogger.js");
 
-require("./sqslogstash");
+require("winston-sqs-logstash");
 require("winston-logstash");
 
 var Yowl = function(options){
